@@ -99,4 +99,4 @@ def cosineSimilarity():
 		output = e
 		return render_template('index.html', query=inputQuery, output=output)
 
-app.run()
+app.run(debug=True)
